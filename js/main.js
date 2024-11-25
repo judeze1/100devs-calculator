@@ -26,6 +26,7 @@ cal.onkeyup = function (event) {
 }
 
 // Function that evaluates the digit and return result 
+// edit
 function solve() {
     let x = document.getElementById("result").value
     let y = math.evaluate(x)
